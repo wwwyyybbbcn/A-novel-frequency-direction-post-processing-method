@@ -3,4 +3,4 @@ The corresponding paper, A Frequency-Direction Post-Processing Method for Improv
 
 The current version of this MATLAB code demonstrates key limitations of Short-Time Fourier Transform (STFT).
 
-Note: MathWorks Community：http://www.mathworks.com/matlabcentral/fileexchange/182045-a-novel-frequency-direction-post-processing-method.
+Note: the resource can be accessed on the MathWorks File Exchange at: http://www.mathworks.com/matlabcentral/fileexchange/182045-a-novel-frequency-direction-post-processing-method.
