@@ -6,10 +6,10 @@ The corresponding paper, A Frequency-Direction Post-Processing Method for Improv
 ## 📁 Main Demonstration Scripts
 
 **`demo_bat.m`** – Bat Echolocation Signal Analysis & Method Comparison  
-*Primary reproduction script for the paper's core experiment (Section 3). Loads real bat data (`batdata1.mat`), executes six Time‑Frequency Analysis (TFA) methods (STFT, SST, SET, MSST, SRT, and the proposed method), calculates Renyi entropy for concentration comparison, generates all Time‑Frequency Representations (TFRs) (Figs. 2‑3), performs ridge extraction (Fig. 5), and evaluates signal reconstruction accuracy (Figs. 6‑7). This script fully reproduces the quantitative and visual results presented in the paper.*
+*Primary reproduction script for the paper's core experiment (Section 3). Loads real bat data (`batdata1.mat`), executes six Time‑Frequency Analysis (TFA) methods (STFT, SST, SET, MSST, SRT, and the proposed method), calculates Renyi entropy for concentration comparison, generates all Time‑Frequency Representations (TFRs), performs ridge extraction, and evaluates signal reconstruction accuracy. This script fully reproduces the quantitative and visual results presented in the paper.*
 
 **`demo_simulated.m`** – Analysis of Simulated Multi‑Component Signals  
-*Supplementary demonstration of TFA performance on a synthetic signal containing a fixed‑frequency component, a Linear Frequency Modulated (LFM) component, and a Quadratic Frequency Modulated (QFM) component. *
+*Supplementary demonstration of TFA performance on a synthetic signal containing a fixed‑frequency component, a Linear Frequency Modulated (LFM) component, and a Quadratic Frequency Modulated (QFM) component.*
 
 **`demo.m`** – Illustration of STFT Limitations  
 *Visualizes the two fundamental shortcomings of the Short‑Time Fourier Transform in Section 2.1: energy diffusion in the time‑frequency plane and amplitude distortion for non‑stationary components.*
